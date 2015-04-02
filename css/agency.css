@@ -351,10 +351,15 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+/*@media(max-width:768px) {
     section {
         padding: 150px 0;
-    }
+    
+}}*/
+@media(max-width:768px){
+	.sidebar-nav li {
+		padding-top: 11%;
+	}
 }
 
 .service-heading {
