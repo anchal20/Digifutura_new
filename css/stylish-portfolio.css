@@ -157,7 +157,7 @@ hr.small {
 
 .header {
     display: table;
-    position: relative;
+
     width: 100%;
     height: 100%;
     background: url(../img/free_office_psd.png) no-repeat center center scroll;
@@ -242,3 +242,31 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+ #position {
+     
+     
+    right: 0;
+    top: 50%;
+    margin-top: -75px;
+    height: 150px;
+    width: 25px;
+    
+    position: fixed;
+}
+#position .circle {
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+    margin-top: 2.5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+#position .filled {
+    background-color: red;
+}
+
+
