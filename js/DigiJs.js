@@ -9,14 +9,14 @@
 		$("#portfolio").hide();
 		$("#blog").hide();
 		$("#contact").hide();
-<<<<<<< HEAD
-=======
+
+
 		$("#clients").hide();
 		setTabs();
 		
 		$("#top").focus();
 		
->>>>>>> 0fc1b1d45388f50efbadc509d5c02c45bd047bc6
+
 	});
 	
 	function setTabs(){
