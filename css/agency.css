@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color:#e74c3c;
+    color:black;
 }
 
 p {
@@ -340,6 +340,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+	color:red;
 }
 
 section h3.section-subheading {
@@ -366,6 +367,31 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.service-col {
+	height: 250px;
+}
+.panel-body {
+	width: 100%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+.panel-body p{
+	font-size:18px;
+	//color: red;
+}
+.service-col:hover{
+	
+}
+.service-img {
+	height:90px;
+	position:absolute;
+	top:7%;
+	right:9%;
+	
 }
 div#stage{
 	-webkit-perspective: 600px;
