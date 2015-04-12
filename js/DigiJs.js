@@ -267,7 +267,7 @@
 			$("#c5").addClass('filled');
 		}
 	});
-<<<<<<< HEAD
+
 	
 	$("#panel1").hover(function(){
 		//alert($(this));
@@ -342,7 +342,7 @@
 		$hr.css({borderColor:'black'});
 	});
 	
-=======
+
 	$("#c1").click(function(){
 		$("#top").show();
 			$("#top").focus();
@@ -429,5 +429,5 @@
 			$("#c5").addClass('filled');
 		
 	})
->>>>>>> 0fc1b1d45388f50efbadc509d5c02c45bd047bc6
+
 	
