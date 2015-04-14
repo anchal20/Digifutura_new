@@ -177,11 +177,12 @@ hr.small {
 
 /* Services */
 
-.services {
+#services {
     padding: 50px 0;
+	height:700px;
 }
 
-.service-item {
+#service-item {
     margin-bottom: 30px;
 }
 
